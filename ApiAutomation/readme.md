@@ -15,9 +15,9 @@ This project contains automated test scenarios for the PetStore API. The project
 
 - testAddPet: Adds a new pet to the store. This test verifies that a pet can be successfully added with the correct attributes.
 
-- testAddInvalidPet: Attempts to add an invalid pet with incorrect JSON. This test ensures that the system correctly handles invalid input by returning a 400 Bad Request status.
+- testAddPetFail: Attempts to add an invalid pet with incorrect JSON. This test ensures that the system correctly handles invalid input by returning a 400 Bad Request status.
 
-- testGetPetById: Retrieves a pet by its ID. This test checks that a previously added pet can be fetched using its unique ID, and the attributes match as expected.
+- testGetPet: Retrieves a pet by its ID. This test checks that a previously added pet can be fetched using its unique ID, and the attributes match as expected.
 
 - testGetPetFail: Attempts to retrieve a non-existent pet. This test ensures that the system returns a 404 Not Found status when a pet with a given ID does not exist.
 
