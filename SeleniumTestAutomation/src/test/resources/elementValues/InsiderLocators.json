@@ -1,0 +1,87 @@
+[
+  {
+    "key": "CompanyMenuLocator",
+    "value": "//body/nav[@id='navigation']/div[@class='container-fluid']/div[@id='navbarNavDropdown']/ul[@class='navbar-nav']/li[6]/a[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "CareersLocator",
+    "value": "//a[normalize-space()='Careers']",
+    "type": "xpath"
+  },
+  {
+    "key": "Locations",
+    "value": "//h3[text()='Our Locations']",
+    "type": "xpath"
+  },
+  {
+    "key": "Life at Insider",
+    "value": "//h2[text()='Life at Insider']",
+    "type": "xpath"
+  },
+  {
+    "key": "Teams",
+    "value": "//a[normalize-space()='See all teams']",
+    "type": "xpath"
+  },
+  {
+    "key": "CookieReject",
+    "value": "wt-cli-reject-btn",
+    "type": "id"
+  },
+  {
+    "key": "QAJobs",
+    "value": "(//a[normalize-space()='See all QA jobs'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "FilterLocation",
+    "value": "//span[@id='select2-filter-by-location-container']",
+    "type": "xpath"
+  },
+  {
+    "key": "Istanbul",
+    "value": "//option[@class='job-location istanbul-turkey']",
+    "type": "xpath"
+  },
+  {
+    "key": "FilterDepartment",
+    "value": "//span[@id='select2-filter-by-department-container']",
+    "type": "xpath"
+  },
+  {
+    "key": "QualityAssurance",
+    "value": "select2-filter-by-department-result-cwaj-Quality Assurance",
+    "type": "id"
+  },
+  {
+    "key": "PositionList",
+    "value": ".position-list",
+    "type": "css"
+  },
+  {
+    "key": "PositionListTitles",
+    "value": ".position-list .position-list-item .position-title",
+    "type": "css"
+  },
+  {
+    "key": "PositionListDepartments",
+    "value": ".position-list .position-list-item .position-department",
+    "type": "css"
+  },
+  {
+    "key": "PositionListLocations",
+    "value": ".position-list .position-list-item .position-location",
+    "type": "css"
+  },
+  {
+    "key": "Hover",
+    "value":"//p[normalize-space()='Senior Software Quality Assurance Engineer']",
+    "type": "xpath"
+  },
+  {
+    "key": "ViewRole",
+    "value":"//a[contains(text(),'View Role')]",
+    "type": "xpath"
+  }
+]
