@@ -49,7 +49,7 @@ public class PetEndpoints {
                 .post("/pet");
     }
 
-    public static Response getPet(int petId) {
+    public static Response getPetFail(int petId) {
         return given()
                 .pathParam("petId", petId)
                 .when()
